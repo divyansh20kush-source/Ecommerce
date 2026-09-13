@@ -1,0 +1,29 @@
+{
+  "name": "atelier-ai-storefront",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "dev:frontend": "vite",
+    "dev:full": "node scripts/dev-server.js",
+    "dev:vercel": "vercel dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "mongodb": "^7.6.0",
+    "nodemailer": "^7.0.13",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "vercel": "^59.14.0"
+  }
+}
